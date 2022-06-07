@@ -18,6 +18,6 @@ async def ping(args: List[str], payload: str, vk: VkApi, update: list) -> str:
     if latency < 0:
         latency = "(время неправильное, пинга не будет)"
     else:
-        latency = f"Тададам пинг: ≈{str(latency)} секунд{get_plural(latency, 'а', 'ы', '', 'ы')}"  # noqa
+        latency = f"Вот твой пингочек ≈{str(latency)} секунд{get_plural(latency, 'а', 'ы', '', 'ы')}"  # noqa
     resp = pings.get(update[5], 'че?')
-    return f"{resp} (GANGSTA Модуль)\n{latency}"
+    return f"{resp} (Модуль Ганста)\n{latency}"
