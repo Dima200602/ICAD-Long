@@ -20,7 +20,7 @@ async def ignore_add(args: List[str], payload: str,
         return '❔ Указанный пользователь уже дурак'
     settings.ignored_users.append(uid)
     await settings.sync()
-    return '✅ Указанный пользователь был успешно добавлен в список дураков'
+    return '✅ Указанный пользователь успешно добавлен в список дураков'
 
 
 async def ignore_remove(args: List[str], payload: str,
