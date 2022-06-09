@@ -1,7 +1,7 @@
 {
   "name": "ICAD-Longpoll",
   "description": "Longpoll module for IrCA",
-  "repository": "https://github.com/Obnovlator3000/ICAD-Longpoll",
+  "repository": "https://github.com/Dima200602/ICAD-Long",
   "env": {
     "token": {
       "description": "Ваш токен"
